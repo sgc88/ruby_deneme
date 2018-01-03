@@ -1,5 +1,6 @@
 <h1>Deneme#index</h1>
 <p>Find me in app/views/deneme/index.html.erb</p>
 <h1>bu bir denemedir</h1>
-<a href= '/deneme/merhaba'>Merhaba Sayfasi (HTML)</a><br>
-<%= link_to('Merhaba sayfasi RAILS',{:action => 'merhaba'}) %>
+<a href="/deneme/merhaba">Bu bir html surumudur</a><br>
+<%= link_to("Bu sayfa ", :action => 'merhaba')%><br>
+<%= link_to("parametreli link", :action => "merhaba", :sayfa => 2, :id => 3)%>

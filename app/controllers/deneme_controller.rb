@@ -4,6 +4,8 @@ class DenemeController < ApplicationController
   end
 
   def merhaba
+    @id=params['id']
+    @sayfa=params['sayfa']
     @sehirler=["istanbul", "Ankara", "Bursa", "Izmir", "Gaziantep"]
     render('merhaba')
 
