@@ -1,0 +1,2 @@
+module DenemeHelper
+end
